@@ -73,7 +73,7 @@ Add files & commit <br>
 - Rename branch <br>
 **`$ git branch -m <new-branch-name>`** # Rename current branch <br>
 **`$ git branch -m <old-branch-name> <new-branch-name>`** # Rename another branch <br>
-Rename remote branch (after above step) <br>
+Rename remote branch (after above step) <a href="#Sources">[2]</a> <br>
 `$ git push origin :old_branch`                 # Delete the old branch <br>
 `$ git push --set-upstream origin new_branch`   # Push the new branch, set local branch <br>
 
@@ -109,11 +109,11 @@ Rename remote branch (after above step) <br>
 - Change last commit <br>
 **`$ git commit --amend`** <br>
 
-- Undo last local commit [1]<br>
+- Undo last local commit <a href="#Sources">[1]</a> <br>
 **`$ git reset --soft HEAD~`** # soft -- keep your changes<br>
 **`$ git reset --hard HEAD^`** # hard -- discard changes<br>
 
-- Undo last published commit [1]<br>
+- Undo last published commit <a href="#Sources">[1]</a> <br>
 **`$ git revert HEAD`** <br>
 
 - Unstage a file <br>
@@ -158,7 +158,8 @@ Rename remote branch (after above step) <br>
 - Github Git cheatsheet https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 - Git Scm https://git-scm.com
 - [1]: http://stackoverflow.com/a/927386/2251156
-
+- [2]: http://stackoverflow.com/a/16220970/2251156
+ 
 # Articles
 
 - fast-forward <br>
