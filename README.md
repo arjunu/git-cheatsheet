@@ -109,6 +109,9 @@ Rename remote branch (after above step) <a href="#sources">[2]</a> <br>
 
 ## Undoing
 
+- Remove uncommitted changes <br>
+**`$ git checkout .`** :warning: # use -f for force <br>
+
 - Change last commit <br>
 **`$ git commit --amend`** <br>
 
@@ -124,6 +127,12 @@ Rename remote branch (after above step) <a href="#sources">[2]</a> <br>
 
 - Unmodify a file <br>
 **`$ git checkout -- <file>`** :warning:<br>
+
+- Remove untracked files <br>
+**`$ git clean -f`** :warning:<br>
+
+- Remove untracked directories <br>
+**`$ git clean -d`** :warning:<br>
 
 ## Glossary
 
