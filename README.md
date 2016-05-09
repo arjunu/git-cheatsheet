@@ -61,6 +61,9 @@ Add files & commit <br>
 - Switch to branch <br>
 **`$ git checkout <branch-name>`** <br>
 
+- Carry changes to a new branch <br>
+**`$ git checkout -b <branch-name>`** <br>
+
 - Merge specified branch into current branch <br>
 **`$ git merge <branch-name>`** <br>
 
