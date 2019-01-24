@@ -145,6 +145,11 @@ Add files & commit <br>
 - Push all tags <br>
 `$ git push origin --tags`
 
+## Cleanup
+
+- Delete all local branches that no longer have a remote :warning:
+`$ git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d`
+
 ## Glossary
 
 #### Files
