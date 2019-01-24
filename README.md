@@ -137,6 +137,9 @@ Add files & commit <br>
 - Remove untracked directories <br>
 `$ git clean -d` :warning:<br>
 
+- Reset branch to remote  <br>
+`$ git reset --hard origin/<branch-name>`
+
 ## Tags
 
 - Create tag <br>
@@ -147,7 +150,7 @@ Add files & commit <br>
 
 ## Cleanup
 
-- Delete all local branches that no longer have a remote :warning:
+- Delete all local branches that no longer have a remote :warning: <br>
 `$ git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d`
 
 ## Glossary
