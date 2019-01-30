@@ -54,6 +54,9 @@ Add files & commit <br>
 
 ## Branches
 
+- Get current branch name <br>
+`$ git branch | grep \* | cut -d ' ' -f2`
+
 - List all existing branches <br>
 `$ git branch -av` <br>
 
