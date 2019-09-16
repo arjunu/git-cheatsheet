@@ -86,6 +86,9 @@ Add files & commit <br>
 `$ git push origin :old_branch`                 # Delete the old branch <br>
 `$ git push --set-upstream origin new_branch`   # Push the new branch, set local branch <br>
 
+- Reset branch w.r.t. master
+`$ git reset $(git merge-base master <your-branch>)`
+
 ## Remotes
 
 - Show all remotes <br>
@@ -189,13 +192,6 @@ Add files & commit <br>
 - **Rebase:** another type of integrating changes (the other one being `merge`) from one branch into another by taking all the changes that were committed on one branch and replaying them on another.
 
 ## Sources
-- Github Git cheatsheet https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
-- Git Scm https://git-scm.com
 - [1]: Undo a commit and redo http://stackoverflow.com/a/927386/2251156
 - [2]: Updating your local branch's tracking reference to the new remote http://stackoverflow.com/a/16220970/2251156
  
-# Articles
-
-- fast-forward <br>
-  http://ariya.ofilabs.com/2013/09/fast-forward-git-merge.html
-
